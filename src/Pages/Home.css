@@ -1,6 +1,15 @@
 body {
-  background-image:url('https://media.blogto.com/articles/20210622-torontosunset1.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70');
+  /* background-image:url('https://media.blogto.com/articles/20210622-torontosunset1.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70'); */
   background-repeat: no-repeat;
-  background-size: auto;
-  margin:0px;
+  background-size: 100% 100%;
+  background-color: azure;
+}
+
+.main {
+  padding: 20px;
+}
+
+.working {
+  padding: 20px;
+  background-color: yellow;
 }

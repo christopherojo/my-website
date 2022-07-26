@@ -7,15 +7,15 @@ const Home = () => {
       <h1>Main Picture</h1>
       <div className='working'>
         <table>
-          <td style={{width: "10%", paddingRight: "30px"}}>
-            <div>
-              <img className="profile" src={LinkedIn} alt="Profile Picture"/>
-            </div>
-          </td>
           <td style={{textAlign: 'left', verticalAlign: 'middle'}}>
             <div className='introText'>
               <h2>Hi! I am Christopher!</h2>
               <p>I am a second year software engineering student at Western University!</p>
+            </div>
+          </td>
+          <td style={{width: "10%", paddingRight: "30px"}}>
+            <div>
+              <img className="profile" src={LinkedIn} alt="Profile Picture"/>
             </div>
           </td>
         </table>

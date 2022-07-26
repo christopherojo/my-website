@@ -5,11 +5,39 @@ body {
   background-color: azure;
 }
 
+table {
+  width: 100%;
+}
+
 .main {
   padding: 20px;
 }
 
 .working {
   padding: 20px;
-  background-color: yellow;
+  background-color: rgb(200, 241, 228);
+  border-radius: 25px;
+}
+
+.profile {
+  height: 300px;
+  border-radius: 25px;
+}
+
+.introText {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: lightgreen;
+}
+
+.connectHeader {
+  padding: 20px;
+  padding-top: 80px;
+}
+
+.connect {
+  padding: 20px;
+  padding-bottom: 1000px;
+  background-color: blueviolet;
+  border-radius: 25px;
 }

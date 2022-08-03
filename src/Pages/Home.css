@@ -17,6 +17,22 @@ div {
   /* padding: 20px; */
 }
 
+.introduction {
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%, #43e 100%);
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 500;
+  font-family: "Quicksand",sans-serif;
+  background-size: cover;
+  margin-top: 50px;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .working {
   padding: 20px;
   background-color: rgb(231, 255, 247);
@@ -28,7 +44,7 @@ div {
 }
 
 .summary {
-  position: absolute;
+  position: relative;
   top: 20%;
   padding: 5%;
 }

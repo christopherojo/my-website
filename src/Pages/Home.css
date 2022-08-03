@@ -10,13 +10,17 @@ table {
 }
 
 .main {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .working {
   padding: 20px;
   background-color: rgb(231, 255, 247);
   border-radius: 25px;
+}
+
+.introduction {
+  width: 100%;
 }
 
 .profile {

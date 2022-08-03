@@ -1,10 +1,12 @@
 import './Home.css'
 import LinkedIn from './Images/LinkedIn.jpg'
+import Sunset from './Images/Sunset.png'
 
 const Home = () => {
   return (
     <div className='main'>
       <h1>Main Picture</h1>
+      <img className="introduction" src={Sunset} alt="Sunset Photo" />
       <div className='working'>
         <table>
           <td style={{textAlign: 'left', verticalAlign: 'middle'}}>
@@ -13,7 +15,7 @@ const Home = () => {
               <p>I am a second year software engineering student at Western University!</p>
             </div>
           </td>
-          <td style={{width: "10%", paddingRight: "30px"}}>
+          <td style={{width: "10%", paddingLeft: "30px"}}>
             <div>
               <img className="profile" src={LinkedIn} alt="Profile Picture"/>
             </div>

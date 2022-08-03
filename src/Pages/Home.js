@@ -6,18 +6,18 @@ const Home = () => {
   return (
     <div className='main'>
       <h1>Main Picture</h1>
-      <img className="introduction" src={Sunset} alt="Sunset Photo" />
-      <div className='working'>
+      <img className="background-photo" src={Sunset} alt="Sunset Photo" />
+      <div className='introduction'>
         <table>
+          <td style={{width: "30%", paddingRight: "30px"}}>
+            <div>
+              <img className="profile" src={LinkedIn} alt="Profile Picture"/>
+            </div>
+          </td>
           <td style={{textAlign: 'left', verticalAlign: 'middle'}}>
             <div className='introText'>
               <h2>Hi! I am Christopher!</h2>
               <p>I am a second year software engineering student at Western University!</p>
-            </div>
-          </td>
-          <td style={{width: "10%", paddingLeft: "30px"}}>
-            <div>
-              <img className="profile" src={LinkedIn} alt="Profile Picture"/>
             </div>
           </td>
         </table>

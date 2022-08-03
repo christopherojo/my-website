@@ -9,6 +9,10 @@ table {
   width: 100%;
 }
 
+div {
+  display: block;
+}
+
 .main {
   /* padding: 20px; */
 }
@@ -23,7 +27,7 @@ table {
   width: 100%;
 }
 
-.introduction {
+.summary {
   position: absolute;
   top: 20%;
   padding: 5%;
@@ -35,7 +39,6 @@ table {
 }
 
 .introText {
-  height: 300px;
   padding: 20px;
   border-radius: 25px;
   background-color: rgb(250, 199, 190);

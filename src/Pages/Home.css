@@ -17,20 +17,38 @@ div {
   /* padding: 20px; */
 }
 
-.introduction {
+.section-welcome {
   background-image: radial-gradient(farthest-corner at 40px 40px,
       #f35 0%, #43e 100%);
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: 500;
-  font-family: "Quicksand",sans-serif;
   background-size: cover;
-  margin-top: 50px;
   height: 90vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.introduction {
+  width: 60%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introduction h1 {
+  font-size: 3.5em;
+}
+
+.introduction h5 {
+  display: block;
+  font-size: 1.8em;
+  font-weight: 500;
+  font-family: "Quicksand",sans-serif;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .working {

@@ -39,6 +39,20 @@ div {
   justify-content: space-evenly;
 }
 
+.section-projects {
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+  height: 90vh;
+}
+
+.section-experience {
+  background-image: radial-gradient(farthest-corner at 40px 95%,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+  height: 70vh;
+}
+
 .about-me {
   width: 90%;
 }

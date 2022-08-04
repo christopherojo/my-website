@@ -60,31 +60,41 @@ const AboutMe = () => {
   );
 }
 
+const Projects = () => {
+  return (
+    <div>
+      <div>
+        <h1>My Projects</h1>
+      </div>
+    </div>
+  );
+}
+
+const Experience = () => {
+  return (
+    <div>
+      <div>
+        <h1>My Experience</h1>
+      </div>
+    </div>
+  );
+}
+
 const Home = () => {
   return (
     <div className='main'>
       <section className='section-welcome'>
         <Introduction />
       </section>
-      <br></br>
       <section className='section-about-me'>
         <AboutMe />
       </section>
-      <div className='sum'>
-        <table>
-          <td style={{width: "30%", paddingRight: "3%"}}>
-            <div>
-              <img className="profile" src={LinkedIn} alt="Profile Picture"/>
-            </div>
-          </td>
-          <td style={{textAlign: 'center', verticalAlign: 'middle'}}>
-            <div className='introText'>
-              <h2>Hi! I am Christopher!</h2>
-              <p>I am a second year software engineering student at Western University!</p>
-            </div>
-          </td>
-        </table>
-      </div>
+      <section className='section-projects'>
+        <Projects />
+      </section>
+      <section className='section-experience'>
+        <Experience />
+      </section>
       <img className="background-photo" src={Sunset} alt="Sunset Photo" />
       <h1>About Me</h1>
       <div className='working'>

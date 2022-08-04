@@ -41,7 +41,7 @@ const AboutMe = () => {
                 <h3>Programming Expertise</h3>
                 <p>
                   <b>Languages: </b>
-                  Python, Java, HTML, CSS, JavaScript/TypeScript,  C/C++, C# 
+                  Python, Java, HTML, CSS, JavaScript/TypeScript,  C/C++, C#, SQL 
                 </p>
                 <p>
                   <b>Frameworks: </b>

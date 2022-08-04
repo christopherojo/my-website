@@ -28,6 +28,21 @@ div {
   align-items: center;
 }
 
+.section-about-me {
+  background-image: radial-gradient(farthest-corner at 40px 95%,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-me {
+  width: 90%;
+}
+
 .introduction {
   width: 60%;
   height: 90vh;
@@ -51,6 +66,77 @@ div {
   margin-inline-end: 0px;
 }
 
+.summary {
+  display: flex;
+  flex-direction: row;
+}
+
+.sum {
+  position: relative;
+  top: 20%;
+  padding: 5%;
+}
+
+.photo {
+  display: flex;
+  height: 55vh;
+  width: 70%;
+  justify-content: left;
+  border-radius: 25px;
+}
+
+.photo #profile {
+  offset: top 50px;
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  padding: 5px;
+  background: #43e;
+}
+
+.my-info-background {
+  padding: 5px;
+  background-color: #43e;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.my-info {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  border-radius: inherit;
+  padding: 15px;
+  background-color: rgba(255, 246, 254, 0.945);
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.first {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.second {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.introText {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgb(250, 199, 190);
+}
+
+
 .working {
   padding: 20px;
   background-color: rgb(231, 255, 247);
@@ -59,23 +145,6 @@ div {
 
 .background-photo {
   width: 100%;
-}
-
-.summary {
-  position: relative;
-  top: 20%;
-  padding: 5%;
-}
-
-.profile {
-  width: 100%;
-  border-radius: 25px;
-}
-
-.introText {
-  padding: 20px;
-  border-radius: 25px;
-  background-color: rgb(250, 199, 190);
 }
 
 .connectHeader {

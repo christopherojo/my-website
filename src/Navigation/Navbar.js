@@ -1,10 +1,12 @@
 import React from "react";
+import Logo from './NoFace.png'
 
 const Navbar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
       <a className="navbar-brand" href="#">
-        Navbar
+        <img style={{width: '45px', paddingRight:'15px'}} src={Logo} id='navbar-img'/>
+        Christopher Ojo
       </a>
       <button
         className="navbar-toggler"
@@ -26,13 +28,28 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Features
+            <a className="nav-link" href="#ref-about-me">
+              About Me
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#ref-projects">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#ref-experience">
+              Experience
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#ref-education">
+              Education
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#connect">
-              Pricing
+              Connect
             </a>
           </li>
           <li className="nav-item dropdown">

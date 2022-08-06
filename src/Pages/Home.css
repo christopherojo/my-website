@@ -21,7 +21,7 @@ div {
   background-image: radial-gradient(farthest-corner at 40px 40px,
       #f35 0%, #43e 100%);
   background-size: cover;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -32,25 +32,37 @@ div {
   background-image: radial-gradient(farthest-corner at 40px 95%,
       #f35 0%, #43e 100%);
   background-size: cover;
-  height: 70vh;
+  height: 50vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  min-height: 490px;
+  padding-top: 30px;
 }
 
 .section-projects {
   background-image: radial-gradient(farthest-corner at 40px 40px,
       #f35 0%, #43e 100%);
   background-size: cover;
-  height: 90vh;
+  padding-top: 50px;
 }
 
 .section-experience {
   background-image: radial-gradient(farthest-corner at 40px 95%,
       #f35 0%, #43e 100%);
   background-size: cover;
-  height: 70vh;
+  padding-top: 50px;
+}
+
+.section-education {
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+}
+
+.title {
+  padding: 20px;
 }
 
 .about-me {
@@ -85,21 +97,17 @@ div {
   flex-direction: row;
 }
 
-.sum {
-  position: relative;
-  top: 20%;
-  padding: 5%;
-}
-
 .photo {
   display: flex;
-  height: 55vh;
-  width: 70%;
+  height: 35vh;
+  width: 50%;
+  min-height: 300px;
   justify-content: left;
   border-radius: 25px;
 }
 
 .photo #profile {
+  max-width: 600px;
   offset: top 50px;
   width: 90%;
   height: 100%;
@@ -110,6 +118,10 @@ div {
 }
 
 .my-info-background {
+  max-width: 1000px;
+  min-width: 900px;
+  min-height: 300px;
+  height: 35vh;
   padding: 5px;
   background-color: #43e;
   border-radius: 25px;
@@ -126,6 +138,7 @@ div {
   display: flex;
   flex-direction: row;
   text-align: left;
+  overflow: hidden;
 }
 
 .first {
@@ -142,6 +155,101 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.project-spread {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-item-border {
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.project-item {
+  background-color: antiquewhite;
+  width: 30vw;
+  height: 30vh;
+  max-width: 400px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 200px;
+  border-radius: inherit;
+}
+
+.project-item h3 {
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
+.project-item div {
+  padding: 10px;
+  height: 86%;
+}
+
+.project-item img {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.experience {
+  display: flex;
+  width: 100%;
+  text-align: left;
+}
+
+.experience h1 {
+  padding: 20px;
+  width: 20vw;
+  min-width: 250px;
+}
+
+.education-title {
+  padding-top: 50px;
+}
+
+.experience-spread {
+  padding: 20px;
+  background-color: rgb(240, 248, 255, .85);
+  width: 100%;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.experience-item #node {
+  width: 45px;
+  height: 45px;
+}
+
+.experience-item #node-tail {
+  width: 45px;
+  height: 200px;
+  padding: 20px;
+}
+
+.experience-date {
+  min-width: 150px;
+}
+
+.experience-point {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-info {
+  padding-left: 25px;
 }
 
 .introText {

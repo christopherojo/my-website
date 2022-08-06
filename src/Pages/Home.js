@@ -20,7 +20,7 @@ const AboutMe = () => {
       </div>
       <div className='summary'>
         <div className='photo'>
-          <img id="profile" src={LinkedIn} alt="Profile Picture"/>
+          <img id="profile" src={LinkedIn} alt="Profile"/>
         </div>
         <div className='my-info-background'>
           <div className='my-info'>
@@ -72,7 +72,7 @@ const Projects = () => {
             <h3>Project 1</h3>
             <div>
               <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 1 Photo' src={Sunset} />
+                <img alt='Project 1' src={Sunset} />
               </a>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Projects = () => {
             <h3>Project 2</h3>
             <div>
               <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 1 Photo' src={Sunset} />
+                <img alt='Project 2' src={Sunset} />
               </a>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Projects = () => {
             <h3>Project 3</h3>
             <div>
               <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 1 Photo' src={Sunset} />
+                <img alt='Project 3' src={Sunset} />
               </a>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Projects = () => {
             <h3>Project 4</h3>
             <div>
               <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 1 Photo' src={Sunset} />
+                <img alt='Project 4' src={Sunset} />
               </a>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Projects = () => {
             <h3>Project 5</h3>
             <div>
               <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 1 Photo' src={Sunset} />
+                <img alt='Project 5' src={Sunset} />
               </a>
             </div>
           </div>

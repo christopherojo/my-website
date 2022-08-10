@@ -37,7 +37,7 @@ const AboutMe = () => {
               <div className='education'>
                 <div className='info-title'>
                   <h3>
-                  <i class="fa-solid fa-graduation-cap"></i>
+                    <i class="fa-solid fa-graduation-cap"></i>
                   </h3>
                   <h3>Education</h3>
                 </div>
@@ -50,7 +50,7 @@ const AboutMe = () => {
               <div className='skills'>
                 <div className='info-title'>
                   <h3>
-                  <i class="fa-solid fa-microchip"></i>
+                    <i class="fa-solid fa-microchip"></i>
                   </h3>
                   <h3>Programming Expertise</h3>
                 </div>

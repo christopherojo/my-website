@@ -136,7 +136,7 @@ div {
   display: flex;
   height: 35vh;
   width: 50%;
-  min-height: 300px;
+  min-height: 320px;
   justify-content: left;
   border-radius: 25px;
 }
@@ -155,7 +155,7 @@ div {
 .my-info-background {
   max-width: 1000px;
   min-width: 900px;
-  min-height: 300px;
+  min-height: 320px;
   height: 35vh;
   padding: 5px;
   background-color: #43e;

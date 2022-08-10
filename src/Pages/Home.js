@@ -229,6 +229,89 @@ const Education = () => {
   );
 }
 
+const Hobbies = () => {
+  return (
+    <div>
+      <div className='extracurriculars'>
+        <h1>My Extracurriculars and Hobbies</h1>
+      </div>
+      <div className='extracurricular-spread'>
+        <div className='extracurricular-panel'>
+          <div id='trading'>
+            <div className='extracurricular'>
+              <h3>Trading & Investing</h3>
+              <h4>2+ years experience</h4>
+            </div>
+          </div>
+          <div className='extracurricular'>
+            <h3>Chess & Puzzles</h3>
+            <h4>Chess Club President</h4>
+          </div>
+        </div>
+        <div className='extracurricular-panel'>
+          <div className='extracurricular'>
+            <h3>Basketball & Athletics</h3>
+            <h4>Basketball Captain</h4>
+          </div>
+        </div>
+        <div className='extracurricular-panel'>
+          <div className='extracurricular'>
+            <h3>Programming</h3>
+            <h4>5+ years experience</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const Contact = () => {
+  return (
+    <div>
+      <div className='contact'>
+        <h1>Contact Me</h1>
+      </div>
+      <div className='contact-spread'>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='email'>
+
+            </div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='discord'>
+
+            </div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='linked-in'>
+
+            </div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='github'>
+
+            </div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='instagram'>
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 const Home = () => {
   return (
     <div className='main'>
@@ -247,32 +330,12 @@ const Home = () => {
       <section id='ref-education'  className='section-education'>
         <Education />
       </section>
-      <img className="background-photo" src={Sunset} alt="Sunset Photo" />
-      <h1>About Me</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Skills</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Experience</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Projects</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Hobbies</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <a id="connect"></a>
-      <h1 className="connectHeader">Connect</h1>
-      <div className='connect'>
-        <p>Tandom words</p>
-      </div>
+      <section id='ref-extracurriculars' className='section-extracurriculars'>
+        <Hobbies />
+      </section>
+      <section id='ref-contact' className='section-contact'>
+        <Contact />
+      </section>
     </div>
   );
 };

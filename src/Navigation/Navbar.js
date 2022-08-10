@@ -3,7 +3,7 @@ import Logo from './NoFace.png'
 
 const Navbar = () => {
   return (
-    <nav className="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="#">
         <img style={{width: '45px', paddingRight:'15px'}} src={Logo} id='navbar-img'/>
         Christopher Ojo
@@ -48,35 +48,14 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#connect">
-              Connect
+            <a className="nav-link" href="#ref-extracurriculars">
+              Extracurriculars
             </a>
           </li>
-          <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown link
+          <li className="nav-item">
+            <a className="nav-link" href="#ref-contact">
+              Contact
             </a>
-            <div
-              className="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </div>
           </li>
         </ul>
       </div>

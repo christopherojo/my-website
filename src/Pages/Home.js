@@ -26,19 +26,34 @@ const AboutMe = () => {
           <div className='my-info'>
             <div className='first'>
               <div className='coop'>
-                <h3>Current Co-op</h3>
+                <div className='info-title'>
+                  <h3>
+                    <i class="fa-solid fa-briefcase"></i>
+                  </h3>
+                  <h3>Current Co-op</h3>
+                </div>
                 <p>Software Developer @ Vaerion</p>
               </div>
               <div className='education'>
-                <h3>Current Education</h3>
-                <p>BESc. Software Engineering, HBA Ivey, Honours</p>
+                <div className='info-title'>
+                  <h3>
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  </h3>
+                  <h3>Education</h3>
+                </div>
+                <p>BESc. Software Engineering, Ivey Business Administration, Honours</p>
                 <p>University of Western Ontario @ Ontario, Canada</p>
                 <p>Cumulative GPA: 3.9</p>
               </div>
             </div>
             <div className='second'>
               <div className='skills'>
-                <h3>Programming Expertise</h3>
+                <div className='info-title'>
+                  <h3>
+                  <i class="fa-solid fa-microchip"></i>
+                  </h3>
+                  <h3>Programming Expertise</h3>
+                </div>
                 <p>
                   <b>Languages: </b>
                   Python, Java, HTML, CSS, JavaScript/TypeScript (ThinkScript),  C/C++, C#, SQL (MySQL) 
@@ -49,7 +64,12 @@ const AboutMe = () => {
                 </p>
               </div>
               <div className='hobbies'>
-                <h3>Hobbies</h3>
+                <div className='info-title'>
+                  <h3>
+                    <i class="fa-solid fa-basketball"></i>
+                  </h3>
+                  <h3>Hobbies</h3>
+                </div>
                 <p>Puzzles, coding, trading/investing, data analysis, mathematics, basketball,</p>
               </div>
             </div>
@@ -275,36 +295,41 @@ const Contact = () => {
         <div className='contact-info'>
           <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
             <div id='email'>
-
+              <i class="fa-solid fa-envelope"></i>
             </div>
+            <div className='tooltip'>Email</div>
           </a>
         </div>
         <div className='contact-info'>
           <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
             <div id='discord'>
-
+              <i class="fa-brands fa-discord"></i>
             </div>
+            <div className='tooltip'>Discord</div>
           </a>
         </div>
         <div className='contact-info'>
           <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
             <div id='linked-in'>
-
+              <i class="fa-brands fa-linkedin"></i>
             </div>
+            <div className='tooltip'>LinkedIn</div>
           </a>
         </div>
         <div className='contact-info'>
           <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
             <div id='github'>
-
+              <i class="fa-brands fa-github"></i>
             </div>
+            <div className='tooltip'>Github</div>
           </a>
         </div>
         <div className='contact-info'>
           <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
             <div id='instagram'>
-
+              <i class="fa-brands fa-instagram"></i>
             </div>
+            <div className='tooltip'>Instagram</div>
           </a>
         </div>
       </div>

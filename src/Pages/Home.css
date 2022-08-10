@@ -93,6 +93,11 @@ div {
 
 .introduction h1 {
   font-size: 3.5em;
+  opacity: 1;
+  animation-name: fade-in;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
 
 .introduction h5 {
@@ -104,6 +109,22 @@ div {
   margin-block-end: 1.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  animation-name: fade-in;
+  animation-duration: 1000ms;
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate(0px, 100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .summary {

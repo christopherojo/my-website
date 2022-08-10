@@ -7,7 +7,7 @@ const Introduction = () => {
   return (
     <div className='introduction'>
       <h1>Hello! :D</h1>
-      <h5>I'm Christopher Ojo, an Ivey and Software Engineering Dual Degree student at the University of Western Ontario as well as an aspiring software developer and data scientist.</h5>
+      <h5>I'm Christopher Ojo, an Ivey HBA and Software Engineering Dual Degree student at the University of Western Ontario as well as an aspiring software developer and data scientist.</h5>
     </div>
   );
 }

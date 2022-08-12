@@ -32,7 +32,6 @@ div {
   background-image: radial-gradient(farthest-corner at 40px 95%,
       #f35 0%, #43e 100%);
   background-size: cover;
-  height: 50vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -61,6 +60,20 @@ div {
   background-size: cover;
 }
 
+.section-extracurriculars {
+  background-image: radial-gradient(farthest-corner at 40px 95%,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.section-contact {
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+  height: 240px;
+}
+
 .title {
   padding: 20px;
 }
@@ -79,6 +92,11 @@ div {
 
 .introduction h1 {
   font-size: 3.5em;
+  opacity: 1;
+  animation-name: fade-in;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
 
 .introduction h5 {
@@ -90,19 +108,35 @@ div {
   margin-block-end: 1.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  animation-name: fade-in;
+  animation-duration: 1000ms;
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate(0px, 100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .summary {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .photo {
   display: flex;
   height: 35vh;
-  width: 50%;
-  min-height: 300px;
-  justify-content: left;
+  min-height: 320px;
   border-radius: 25px;
 }
 
@@ -119,13 +153,12 @@ div {
 
 .my-info-background {
   max-width: 1000px;
-  min-width: 900px;
-  min-height: 300px;
-  height: 35vh;
+  min-height: 320px;
   padding: 5px;
   background-color: #43e;
   border-radius: 25px;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .my-info {
@@ -137,24 +170,45 @@ div {
   background-color: rgba(255, 246, 254, 0.945);
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: left;
   overflow: hidden;
 }
 
 .first {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .second {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info-title {
+  display: flex;
+}
+
+.info-title i {
+  padding-right: 10px;
+}
+
+.info-title h3 {
+  background: linear-gradient(120deg,#c90460,#bf2ad3 50%,#4b049c);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 600;
+  padding-bottom: 1px;
 }
 
 .project-spread {
@@ -252,31 +306,169 @@ div {
   padding-left: 25px;
 }
 
-.introText {
+.extracurriculars {
   padding: 20px;
-  border-radius: 25px;
-  background-color: rgb(250, 199, 190);
 }
 
-
-.working {
-  padding: 20px;
-  background-color: rgb(231, 255, 247);
-  border-radius: 25px;
+.extracurricular-spread {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.background-photo {
+.extracurricular-panel:first-of-type {
+  height: 100vh;
+  width: 65%;
+  padding-right: 5px;
+}
+
+.extracurricular-panel:nth-of-type(2) {
+  height: 100vh;
+  width: 35%;
+}
+
+.extracurricular-panel:nth-of-type(3) {
+  height: 50vh;
   width: 100%;
+  padding-top: 5px;
 }
 
-.connectHeader {
-  padding: 20px;
-  padding-top: 80px;
+.extracurricular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
-.connect {
-  padding: 20px;
-  padding-bottom: 1000px;
-  background-color: blueviolet;
-  border-radius: 25px;
+#trading {
+  height: 50%;
+  padding-bottom: 5px;
+}
+
+.extracurricular-panel:first-of-type .extracurricular:nth-of-type(1) {
+  background-image: linear-gradient(135deg,rgba(95, 226, 101, 0.8),rgba(12, 85, 57, 0.8)),url('https://www.nasdaq.com/sites/acquia.prod/files/image/29525db076bcc42505a356e55dbe94f38b28530b_getty-stock-market-data.jpg?53434481');
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+}
+
+.extracurricular-panel:first-of-type .extracurricular:nth-of-type(2) {
+  background-image: linear-gradient(135deg,rgba(226, 213, 95, 0.8),rgba(85, 39, 12, 0.8)),url('https://thebusinessofesports.com/wp-content/uploads/2021/12/chess-playing-hand.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 50%;
+}
+
+.extracurricular-panel:nth-of-type(2) .extracurricular {
+  background-image: linear-gradient(135deg,rgba(226,95,176,.8),rgba(85,12,34,.8)),url('https://wallpaper.dog/large/17036904.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+}
+
+.extracurricular-panel:nth-of-type(3) .extracurricular {
+  background-image: linear-gradient(135deg,rgba(95, 115, 226, 0.8),rgba(64, 12, 85, 0.8)),url('https://papers.co/wallpaper/papers.co-ne79-coding-screen-digital-art-blue-34-iphone6-plus-wallpaper.jpg');
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+}
+
+.contact {
+  padding: 35px;
+}
+
+.contact-spread {
+  display: inline-flex;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px 70px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-info a {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #f35;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info a:hover .tooltip {
+  font-size: 18px;
+  top: -55px;
+  opacity: 1;
+}
+
+.contact-info a:hover i {
+  color: #fcd1de;
+}
+
+.contact-info a:hover {
+  background-color: #4b049c;
+}
+
+.contact-info i {
+  font-size: 25px;
+  color: #4b049c;
+}
+
+.contact-info .tooltip {
+  top: 0;
+  position: relative;
+  text-align: center;
+  font-size: 5px;
+  color: #fcd1de;
+  background-color: #4b049c;
+  padding: 5px 8px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  text-decoration: none;
+  transition: all .2s cubic-bezier(.68,-.55,.265,1.55);
+}
+
+.contact-info .tooltip::before {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  opacity: 1;
+  padding: 3px;
+  align-items: center;
+  right: 45%;
+  rotate: 45deg;
+  background-color: #4b049c;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#email {
+  position: absolute;
+}
+
+#discord {
+  position: absolute;
+}
+
+#linked-in {
+  position: absolute;
+}
+
+#github {
+  position: absolute;
+}
+
+#instagram {
+  position: absolute;
 }

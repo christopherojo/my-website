@@ -7,7 +7,7 @@ const Introduction = () => {
   return (
     <div className='introduction'>
       <h1>Hello! :D</h1>
-      <h5>I'm Christopher Ojo, an Ivey and Software Engineering Dual Degree student at the University of Western Ontario as well as an aspiring software developer and data scientist.</h5>
+      <h5>I'm Christopher Ojo, an Ivey HBA and Software Engineering Dual Degree student at the University of Western Ontario as well as an aspiring software developer and data scientist.</h5>
     </div>
   );
 }
@@ -26,19 +26,34 @@ const AboutMe = () => {
           <div className='my-info'>
             <div className='first'>
               <div className='coop'>
-                <h3>Current Co-op</h3>
+                <div className='info-title'>
+                  <h3>
+                    <i class="fa-solid fa-briefcase"></i>
+                  </h3>
+                  <h3>Current Co-op</h3>
+                </div>
                 <p>Software Developer @ Vaerion</p>
               </div>
               <div className='education'>
-                <h3>Current Education</h3>
-                <p>BESc. Software Engineering, HBA Ivey, Honours</p>
+                <div className='info-title'>
+                  <h3>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                  </h3>
+                  <h3>Education</h3>
+                </div>
+                <p>BESc. Software Engineering, Ivey Business Administration, Honours</p>
                 <p>University of Western Ontario @ Ontario, Canada</p>
                 <p>Cumulative GPA: 3.9</p>
               </div>
             </div>
             <div className='second'>
               <div className='skills'>
-                <h3>Programming Expertise</h3>
+                <div className='info-title'>
+                  <h3>
+                    <i class="fa-solid fa-microchip"></i>
+                  </h3>
+                  <h3>Programming Expertise</h3>
+                </div>
                 <p>
                   <b>Languages: </b>
                   Python, Java, HTML, CSS, JavaScript/TypeScript (ThinkScript),  C/C++, C#, SQL (MySQL) 
@@ -49,7 +64,12 @@ const AboutMe = () => {
                 </p>
               </div>
               <div className='hobbies'>
-                <h3>Hobbies</h3>
+                <div className='info-title'>
+                  <h3>
+                    <i class="fa-solid fa-basketball"></i>
+                  </h3>
+                  <h3>Hobbies</h3>
+                </div>
                 <p>Puzzles, coding, trading/investing, data analysis, mathematics, basketball,</p>
               </div>
             </div>
@@ -229,6 +249,94 @@ const Education = () => {
   );
 }
 
+const Hobbies = () => {
+  return (
+    <div>
+      <div className='extracurriculars'>
+        <h1>My Extracurriculars and Hobbies</h1>
+      </div>
+      <div className='extracurricular-spread'>
+        <div className='extracurricular-panel'>
+          <div id='trading'>
+            <div className='extracurricular'>
+              <h3>Trading & Investing</h3>
+              <h4>2+ years experience</h4>
+            </div>
+          </div>
+          <div className='extracurricular'>
+            <h3>Chess & Puzzles</h3>
+            <h4>Chess Club President</h4>
+          </div>
+        </div>
+        <div className='extracurricular-panel'>
+          <div className='extracurricular'>
+            <h3>Basketball & Athletics</h3>
+            <h4>Basketball Captain</h4>
+          </div>
+        </div>
+        <div className='extracurricular-panel'>
+          <div className='extracurricular'>
+            <h3>Programming</h3>
+            <h4>5+ years experience</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const Contact = () => {
+  return (
+    <div>
+      <div className='contact'>
+        <h1>Contact Me</h1>
+      </div>
+      <div className='contact-spread'>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='email'>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div className='tooltip'>Email</div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='discord'>
+              <i class="fa-brands fa-discord"></i>
+            </div>
+            <div className='tooltip'>Discord</div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='linked-in'>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div className='tooltip'>LinkedIn</div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='github'>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div className='tooltip'>Github</div>
+          </a>
+        </div>
+        <div className='contact-info'>
+          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+            <div id='instagram'>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div className='tooltip'>Instagram</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 const Home = () => {
   return (
     <div className='main'>
@@ -247,32 +355,12 @@ const Home = () => {
       <section id='ref-education'  className='section-education'>
         <Education />
       </section>
-      <img className="background-photo" src={Sunset} alt="Sunset Photo" />
-      <h1>About Me</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Skills</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Experience</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Projects</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <h1>Hobbies</h1>
-      <div className='working'>
-        <p>Tandom words</p>
-      </div>
-      <a id="connect"></a>
-      <h1 className="connectHeader">Connect</h1>
-      <div className='connect'>
-        <p>Tandom words</p>
-      </div>
+      <section id='ref-extracurriculars' className='section-extracurriculars'>
+        <Hobbies />
+      </section>
+      <section id='ref-contact' className='section-contact'>
+        <Contact />
+      </section>
     </div>
   );
 };

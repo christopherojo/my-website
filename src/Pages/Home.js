@@ -1,7 +1,7 @@
 import './Home.css'
+import { Link } from "react-router-dom";
 import LinkedIn from './Images/LinkedIn.jpg'
 import Sunset from './Images/Sunset.png'
-import Windows from './Images/Linked Windows.jpg'
 
 const Introduction = () => {
   return (
@@ -91,7 +91,7 @@ const Projects = () => {
           <div className='project-item'>
             <h3>Project 1</h3>
             <div>
-              <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+              <a href='/project'>
                 <img alt='Project 1' src={Sunset} />
               </a>
             </div>
@@ -151,16 +151,16 @@ const Experience = () => {
       <div className='experience-spread'>
         <div className='experience-item'>
           <div className='experience-date'>
-            <h5>July 2022 - </h5>
-            <h5>August 2022</h5>
+            <h5>August 2022 - </h5>
+            <h5>Present</h5>
           </div>
           <div className='experience-point'>
             <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
             <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
           </div>
           <div className='experience-info'>
-            <h3>Position</h3>
-            <h4>Where</h4>
+            <h3>Senior Director of Finance</h3>
+            <h4>Western AI Club</h4>
             <li>Information1</li>
             <li>Information2</li>
             <li>Information3</li>
@@ -168,36 +168,44 @@ const Experience = () => {
         </div>
         <div className='experience-item'>
           <div className='experience-date'>
-            <h5>July 2022 - </h5>
-            <h5>August 2022</h5>
+            <h5>May 2021 - </h5>
+            <h5>Present</h5>
           </div>
           <div className='experience-point'>
             <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
             <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
           </div>
           <div className='experience-info'>
-            <h3>Position</h3>
-            <h4>Where</h4>
-            <li>Information1</li>
-            <li>Information2</li>
-            <li>Information3</li>
+            <h3>Co-Founder and Software Developer</h3>
+            <h4>Vaerion</h4>
+            <li>Produced a successful crypto trading bot that averages 15% profit per month in back-testing results using Python,
+Ta-Lib Math models, Bybit API, and Pandas.</li>
+            <li>Formulated an algorithm to read and store data from the Bybit trading website then write it to an excel file using
+Python and Bybit API.</li>
+            <li>Created a command-line user interface to allow the user to easily access and change the bot settings to their preferred
+strategies using multi-threading, pandas and numpy for data printing and bot settings adjustment.</li>
+            <li> Established a Discord Bot to read and print signals to certain channels in the Discord Server from the analyzed data
+using discord.py and repl.it.</li>
           </div>
         </div>
         <div className='experience-item'>
           <div className='experience-date'>
-            <h5>July 2022 - </h5>
-            <h5>August 2022</h5>
+            <h5>May 2021 - </h5>
+            <h5>October 2021</h5>
           </div>
           <div className='experience-point'>
             <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
             <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
           </div>
           <div className='experience-info'>
-            <h3>Position</h3>
-            <h4>Where</h4>
-            <li>Information1</li>
-            <li>Information2</li>
-            <li>Information3</li>
+            <h3>Software Developer</h3>
+            <h4>Opal LLC</h4>
+            <li>Developed a program to create and perform transactions with an XRP wallet using the xrpl-py library to store, send,
+and receive XRP currency and NFTs across multiple wallets and write their information to the ripple ledger.</li>
+            <li>Incorporated Anima and Figma framework designs into engaging web pages using React and Node.js.</li>
+            <li>Implemented multiple databases into the Opal website to store user data and NFT data using MongoDB.</li>
+            <li>Engineered an application to break down a users secret recovery pass phrase into its private key, public key, and public
+address to use for wallet creation and manipulation using Python and JavaScript.</li>
           </div>
         </div>
       </div>
@@ -221,11 +229,17 @@ const Education = () => {
             <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
           </div>
           <div className='experience-info'>
-            <h3>Position</h3>
-            <h4>Where</h4>
-            <li>Information1</li>
-            <li>Information2</li>
-            <li>Information3</li>
+            <h3>BESc. Software Engineering</h3>
+            <h4>University of Western Ontario</h4>
+            <li>
+              <b>Key Courses: </b>Information1
+            </li>
+            <li>
+              <b>Languages: </b>Information2
+            </li>
+            <li>
+              <b>Other Skills: </b>Information3
+            </li>
           </div>
         </div>
         <div className='experience-item'>
@@ -237,11 +251,17 @@ const Education = () => {
             <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
           </div>
           <div className='experience-info'>
-            <h3>Position</h3>
-            <h4>Where</h4>
-            <li>Information1</li>
-            <li>Information2</li>
-            <li>Information3</li>
+            <h3>Ivey Honours Business Administration</h3>
+            <h4>University of Western Ontario</h4>
+            <li>
+              <b>Key Courses: </b>Information1
+            </li>
+            <li>
+              <b>Soft Skills: </b>Information2
+            </li>
+            <li>
+              <b>Other Skills: </b>Information3
+            </li>
           </div>
         </div>
       </div>
@@ -285,81 +305,26 @@ const Hobbies = () => {
   );
 }
 
-const Contact = () => {
-  return (
-    <div>
-      <div className='contact'>
-        <h1>Contact Me</h1>
-      </div>
-      <div className='contact-spread'>
-        <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-            <div id='email'>
-              <i class="fa-solid fa-envelope"></i>
-            </div>
-            <div className='tooltip'>Email</div>
-          </a>
-        </div>
-        <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-            <div id='discord'>
-              <i class="fa-brands fa-discord"></i>
-            </div>
-            <div className='tooltip'>Discord</div>
-          </a>
-        </div>
-        <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-            <div id='linked-in'>
-              <i class="fa-brands fa-linkedin"></i>
-            </div>
-            <div className='tooltip'>LinkedIn</div>
-          </a>
-        </div>
-        <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-            <div id='github'>
-              <i class="fa-brands fa-github"></i>
-            </div>
-            <div className='tooltip'>Github</div>
-          </a>
-        </div>
-        <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-            <div id='instagram'>
-              <i class="fa-brands fa-instagram"></i>
-            </div>
-            <div className='tooltip'>Instagram</div>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 const Home = () => {
   return (
     <div className='main'>
       <section className='section-welcome'>
         <Introduction />
       </section>
-      <section id='ref-about-me' className='section-about-me'>
+      <section id='about-me' className='section-about-me'>
         <AboutMe />
       </section>
-      <section id='ref-projects'  className='section-projects'>
+      <section id='projects'  className='section-projects'>
         <Projects />
       </section>
-      <section id='ref-experience'  className='section-experience'>
+      <section id='experience'  className='section-experience'>
         <Experience />
       </section>
-      <section id='ref-education'  className='section-education'>
+      <section id='education'  className='section-education'>
         <Education />
       </section>
-      <section id='ref-extracurriculars' className='section-extracurriculars'>
+      <section id='extracurriculars' className='section-extracurriculars'>
         <Hobbies />
-      </section>
-      <section id='ref-contact' className='section-contact'>
-        <Contact />
       </section>
     </div>
   );

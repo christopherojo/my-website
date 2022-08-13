@@ -4,7 +4,7 @@ import Logo from './NoFace.png'
 const Navbar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-*" style={{backgroundColor: '#43e'}}>
-      <a className="navbar-brand mb-0 h1" href="#">
+      <a className="navbar-brand mb-0 h1" href="/#">
         <img style={{width: '45px', paddingRight:'15px'}} src={Logo} id='navbar-img'/>
         Christopher Ojo
       </a>
@@ -23,32 +23,32 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ml-auto nav-fill">
           <li className="nav-item px-3">
-            <a className="nav-link" href="#ref-about-me">
+            <a className="nav-link" href="/#about-me">
               About Me
             </a>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="#ref-projects">
+            <a className="nav-link" href="/#projects">
               Projects
             </a>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="#ref-experience">
+            <a className="nav-link" href="/#experience">
               Experience
             </a>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="#ref-education">
+            <a className="nav-link" href="/#education">
               Education
             </a>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="#ref-extracurriculars">
+            <a className="nav-link" href="/#extracurriculars">
               Extracurriculars
             </a>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="#ref-contact">
+            <a className="nav-link" href="#contact">
               Contact Me
             </a>
           </li>

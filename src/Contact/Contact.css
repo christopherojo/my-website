@@ -1,0 +1,105 @@
+.section-contact {
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%, #43e 100%);
+  background-size: cover;
+  height: 240px;
+}
+
+.contact {
+  padding: 35px;
+}
+
+.contact-spread {
+  display: inline-flex;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px 70px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact-info a {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #f35;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info a:hover .tooltip {
+  font-size: 18px;
+  top: -55px;
+  opacity: 1;
+}
+
+.contact-info a:hover i {
+  color: #fcd1de;
+}
+
+.contact-info a:hover {
+  background-color: #4b049c;
+}
+
+.contact-info i {
+  font-size: 25px;
+  color: #4b049c;
+}
+
+.contact-info .tooltip {
+  top: 0;
+  position: relative;
+  text-align: center;
+  font-size: 5px;
+  color: #fcd1de;
+  background-color: #4b049c;
+  padding: 5px 8px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  text-decoration: none;
+  transition: all .2s cubic-bezier(.68,-.55,.265,1.55);
+}
+
+.contact-info .tooltip::before {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  opacity: 1;
+  padding: 3px;
+  align-items: center;
+  right: 45%;
+  rotate: 45deg;
+  background-color: #4b049c;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#email {
+  position: absolute;
+}
+
+#discord {
+  position: absolute;
+}
+
+#linked-in {
+  position: absolute;
+}
+
+#github {
+  position: absolute;
+}
+
+#instagram {
+  position: absolute;
+}

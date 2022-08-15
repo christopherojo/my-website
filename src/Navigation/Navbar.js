@@ -1,14 +1,14 @@
 import React from "react";
 import Logo from './NoFace.png';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-*" style={{backgroundColor: '#43e'}}>
-      <a className="navbar-brand mb-0 h1" href="/my-website/#">
+      <Link className="navbar-brand mb-0 h1" to="#">
         <img style={{width: '45px', paddingRight:'15px'}} src={Logo} id='navbar-img'/>
         Christopher Ojo
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -24,34 +24,34 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ml-auto nav-fill">
           <li className="nav-item px-3">
-            <a className="nav-link" href="/my-website/#about-me">
+            <Link className="nav-link" to="/#about-me">
               About Me
-            </a>
+            </Link>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="/my-website/#projects">
+            <Link className="nav-link" to="/#projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="/my-website/#experience">
+            <Link className="nav-link" to="/#experience">
               Experience
-            </a>
+            </Link>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="/my-website/#education">
+            <Link className="nav-link" to="/#education">
               Education
-            </a>
+            </Link>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="/my-website/#extracurriculars">
+            <Link className="nav-link" to="/#extracurriculars">
               Extracurriculars
-            </a>
+            </Link>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link" href="#contact">
+            <Link className="nav-link" to="#contact">
               Contact Me
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

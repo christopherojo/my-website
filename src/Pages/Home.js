@@ -1,6 +1,7 @@
 import './Home.css'
 import LinkedIn from './Images/LinkedIn.jpg'
 import Sunset from './Images/Sunset.png'
+import { Link } from 'react-router-dom';
 
 const Introduction = () => {
   return (
@@ -90,9 +91,9 @@ const Projects = () => {
           <div className='project-item'>
             <h3>Project 1</h3>
             <div>
-              <a href='/my-website/project'>
+              <Link to='/project'>
                 <img alt='Project 1' src={Sunset} />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

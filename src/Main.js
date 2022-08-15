@@ -8,7 +8,7 @@ import NoPage from './Pages/NoPage.js';
 const Main = () => {
   return (
     <Routes>
-      <Route path='' element={<Home />}></Route>
+      <Route path='/' element={<Home />}></Route>
       <Route path='/project' element={<Project />}></Route>
       <Route path="*" element={<NoPage />} />
     </Routes>

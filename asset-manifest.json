@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.db5e4d01.css",
-    "main.js": "/my-website/static/js/main.9b33c077.js",
+    "main.css": "/my-website/static/css/main.6a0ac760.css",
+    "main.js": "/my-website/static/js/main.b267c2f2.js",
     "static/media/NoFace.png": "/my-website/static/media/NoFace.f95cf461565bee271c44.png",
     "static/media/LinkedIn.jpg": "/my-website/static/media/LinkedIn.9156c9a5d5232ffd9b9b.jpg",
     "static/media/SplitFigmaMap.jpg": "/my-website/static/media/SplitFigmaMap.eb1c56c8b36876d1bcbb.jpg",
@@ -11,11 +11,11 @@
     "static/media/YouFirstHome.jpg": "/my-website/static/media/YouFirstHome.9e1c0eafa11c9075f6f6.jpg",
     "static/media/YouFirstMeditate.jpg": "/my-website/static/media/YouFirstMeditate.59b1677e7daee727f493.jpg",
     "index.html": "/my-website/index.html",
-    "main.db5e4d01.css.map": "/my-website/static/css/main.db5e4d01.css.map",
-    "main.9b33c077.js.map": "/my-website/static/js/main.9b33c077.js.map"
+    "main.6a0ac760.css.map": "/my-website/static/css/main.6a0ac760.css.map",
+    "main.b267c2f2.js.map": "/my-website/static/js/main.b267c2f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.db5e4d01.css",
-    "static/js/main.9b33c077.js"
+    "static/css/main.6a0ac760.css",
+    "static/js/main.b267c2f2.js"
   ]
 }

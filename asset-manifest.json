@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.3e571c7a.css",
-    "main.js": "/my-website/static/js/main.dcd701df.js",
-    "static/media/Sunset.png": "/my-website/static/media/Sunset.30966392dd756f8af1da.png",
+    "main.css": "/my-website/static/css/main.db5e4d01.css",
+    "main.js": "/my-website/static/js/main.9b33c077.js",
     "static/media/NoFace.png": "/my-website/static/media/NoFace.f95cf461565bee271c44.png",
     "static/media/LinkedIn.jpg": "/my-website/static/media/LinkedIn.9156c9a5d5232ffd9b9b.jpg",
+    "static/media/SplitFigmaMap.jpg": "/my-website/static/media/SplitFigmaMap.eb1c56c8b36876d1bcbb.jpg",
+    "static/media/PasswordGeneratorHome.jpg": "/my-website/static/media/PasswordGeneratorHome.a148cbd897fa7d1c1bd0.jpg",
+    "static/media/SpeedStocksGameConcept.jpg": "/my-website/static/media/SpeedStocksGameConcept.3a6bbba1dd0bc4c87ddb.jpg",
+    "static/media/SplitHome.jpg": "/my-website/static/media/SplitHome.fd8707bbecf3c08269d9.jpg",
+    "static/media/YouFirstHome.jpg": "/my-website/static/media/YouFirstHome.9e1c0eafa11c9075f6f6.jpg",
+    "static/media/YouFirstMeditate.jpg": "/my-website/static/media/YouFirstMeditate.59b1677e7daee727f493.jpg",
     "index.html": "/my-website/index.html",
-    "main.3e571c7a.css.map": "/my-website/static/css/main.3e571c7a.css.map",
-    "main.dcd701df.js.map": "/my-website/static/js/main.dcd701df.js.map"
+    "main.db5e4d01.css.map": "/my-website/static/css/main.db5e4d01.css.map",
+    "main.9b33c077.js.map": "/my-website/static/js/main.9b33c077.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e571c7a.css",
-    "static/js/main.dcd701df.js"
+    "static/css/main.db5e4d01.css",
+    "static/js/main.9b33c077.js"
   ]
 }

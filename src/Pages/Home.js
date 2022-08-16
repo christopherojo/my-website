@@ -1,6 +1,9 @@
 import './Home.css'
 import LinkedIn from './Images/LinkedIn.jpg'
-import Sunset from './Images/Sunset.png'
+import Split from './Images/SplitHome.jpg'
+import SpeedStocks from './Images/SpeedStocksGameConcept.jpg'
+import YouFirst from './Images/YouFirstHome.jpg'
+import PasswordGenerator from './Images/PasswordGeneratorHome.jpg'
 import { Link } from 'react-router-dom';
 
 const Introduction = () => {
@@ -18,10 +21,12 @@ const AboutMe = () => {
       <div className='title'>
         <h1>About Me</h1>
       </div>
-      <div className='summary'>
+      <div className='photo-container'>
         <div className='photo'>
           <img id="profile" src={LinkedIn} alt="Profile"/>
         </div>
+      </div>
+      <div className='summary'>
         <div className='my-info-background'>
           <div className='my-info'>
             <div className='first'>
@@ -89,51 +94,41 @@ const Projects = () => {
       <div className='project-spread'>
         <div className='project-item-border'>
           <div className='project-item'>
-            <h3>Project 1</h3>
+            <h3>Split</h3>
             <div>
-              <Link to='/project'>
-                <img alt='Project 1' src={Sunset} />
+              <Link to='/projects/split'>
+                <img id='split' alt='$Split' src={Split} />
               </Link>
             </div>
           </div>
         </div>
         <div className='project-item-border'>
           <div className='project-item'>
-            <h3>Project 2</h3>
+            <h3>Speed Stocks</h3>
             <div>
-              <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 2' src={Sunset} />
-              </a>
+              <Link to='/projects/speedstocks'>
+                <img id='speedstocks' alt='Speed Stocks' src={SpeedStocks} />
+              </Link>
             </div>
           </div>
         </div>
         <div className='project-item-border'>
           <div className='project-item'>
-            <h3>Project 3</h3>
+            <h3>You First</h3>
             <div>
-              <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 3' src={Sunset} />
-              </a>
+              <Link to='/projects/youfirst'>
+                <img id='youfirst' alt='You First' src={YouFirst} />
+              </Link>
             </div>
           </div>
         </div>
         <div className='project-item-border'>
           <div className='project-item'>
-            <h3>Project 4</h3>
+            <h3>Password Generator</h3>
             <div>
-              <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 4' src={Sunset} />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className='project-item-border'>
-          <div className='project-item'>
-            <h3>Project 5</h3>
-            <div>
-              <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-                <img alt='Project 5' src={Sunset} />
-              </a>
+              <Link to='/projects/passwordgenerator'>
+                <img id='passwordgenerator' alt='Password Generator' src={PasswordGenerator} />
+              </Link>
             </div>
           </div>
         </div>
@@ -164,6 +159,7 @@ const Experience = () => {
               <div className='experience-position'>
                 <h3>Senior Director of Finance</h3>
                 <h4>Western AI Club</h4>
+                <h5>August 2022 - Present</h5>
               </div>
             </div>
             <div className='experience-info'>
@@ -190,6 +186,7 @@ const Experience = () => {
               <div className='experience-position'>
                 <h3>Co-Founder and Software Developer</h3>
                 <h4>Vaerion</h4>
+                <h5>May 2021 - Present</h5>
               </div>
             </div>
             <div className='experience-info'>
@@ -220,6 +217,7 @@ const Experience = () => {
               <div className='experience-position'>
                 <h3>Software Developer</h3>
                 <h4>Opal LLC</h4>
+                <h5>May 2021 - October 2021</h5>
               </div>
             </div>
             <div className='experience-info'>
@@ -247,7 +245,7 @@ const Education = () => {
         <h1>My Education</h1>
       </div>
       <div className='experience-spread'>
-        <div style={{paddingTop:'50px'}} className='experience-item'>
+        <div id='education-first-item' className='experience-item'>
           <div className='experience-date'>
             <h5>2020 - 2025</h5>
           </div>
@@ -259,6 +257,7 @@ const Education = () => {
               <div className='experience-position'>
                 <h3>BESc. Software Engineering</h3>
                 <h4>University of Western Ontario</h4>
+                <h5>2020 - 2025</h5>
               </div>
             </div>
             <div className='experience-info'>
@@ -291,6 +290,7 @@ const Education = () => {
               <div className='experience-position'>
                 <h3>Ivey Honours Business Administration</h3>
                 <h4>University of Western Ontario</h4>
+                <h5>2020 - 2025</h5>
               </div>
             </div>
             <div className='experience-info'>

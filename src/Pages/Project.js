@@ -45,7 +45,9 @@ const Information = () => {
         </div>
         <div className='project-next'>
           <h1>What's next</h1>
-          <p>Taken from Devpost</p>
+          <a href='https://devpost.com/software/split-nlrmib' target='_blank'>
+            <p>Taken from Devpost</p>
+          </a>
         </div>
       </div>
     </div>

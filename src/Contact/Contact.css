@@ -22,6 +22,18 @@
   height: 50px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .contact-info {
+    margin: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    margin: 10px 10px;
+  }
+}
+
 .contact-info a {
   cursor: pointer;
   width: 50px;

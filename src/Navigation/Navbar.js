@@ -4,8 +4,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-*" style={{backgroundColor: '#43e'}}>
-      <Link className="navbar-brand mb-0 h1" to="#">
+    <nav className="navbar sticky-top navbar-expand-xl navbar-dark bg-*" style={{backgroundColor: '#43e'}}>
+      <Link className="navbar-brand mb-0 h1" to="/#">
         <img style={{width: '45px', paddingRight:'15px'}} src={Logo} id='navbar-img'/>
         Christopher Ojo
       </Link>

@@ -32,13 +32,11 @@ div {
   background-image: radial-gradient(farthest-corner at 40px 95%,
       #f35 0%, #43e 100%);
   background-size: cover;
-  height: 50vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 490px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .section-projects {
@@ -70,10 +68,6 @@ div {
 
 .title {
   padding: 20px;
-}
-
-.about-me {
-  width: 90%;
 }
 
 .introduction {
@@ -120,24 +114,28 @@ div {
   }
 }
 
-.summary {
+.about-me {
+  width: 90%;
+}
+
+.photo-container {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .photo {
-  display: flex;
-  height: 35vh;
-  width: 50%;
-  min-height: 320px;
-  justify-content: left;
+  height: 90vh;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 400px;
   border-radius: 25px;
 }
 
 .photo #profile {
   max-width: 600px;
   offset: top 50px;
-  width: 90%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
@@ -145,11 +143,15 @@ div {
   background: #43e;
 }
 
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .my-info-background {
   max-width: 1000px;
-  min-width: 900px;
   min-height: 320px;
-  height: 35vh;
   padding: 5px;
   background-color: #43e;
   border-radius: 25px;
@@ -169,6 +171,13 @@ div {
   flex-direction: row;
   text-align: left;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 900px){
+  .my-info {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .first {
@@ -216,7 +225,7 @@ div {
 
 .project-item-border {
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 0 25px 25px 25px;
 }
 
 .project-item {
@@ -236,14 +245,19 @@ div {
 }
 
 .project-item div {
-  padding: 10px;
-  height: 86%;
+  padding: 10px 0px 0px 0px;
+  height: 90%;
 }
 
 .project-item img {
-  border-radius: 25px;
+  border-radius: 0 0 25px 25px;
   width: 100%;
   height: 100%;
+
+  offset-position: top 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .experience {
@@ -313,23 +327,13 @@ div {
   position: relative;
   display: flex;
   justify-content: center;
+  height: 105%;
 }
 
 .experience-item .tail {
   width: 10px;
   border-radius: 5px;
   background-color: #c90460;
-}
-
-.experience-item #node {
-  width: 45px;
-  height: 45px;
-}
-
-.experience-item #node-tail {
-  width: 45px;
-  height: 100%;
-  padding: 20px;
 }
 
 .experience-info {
@@ -341,6 +345,52 @@ div {
 .experience-position {
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
+}
+
+.experience-position h5 {
+  display: none;
+}
+
+#education-first-item {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 1000px){
+  .experience {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .experience-date {
+    display: none;
+  }
+
+  .experience-position h5 {
+    display: block;
+  }
+
+  .tail-container {
+    top: -30px;
+    height: 110%;
+  }
+
+  /* .node-container {
+    display: none;
+  }
+
+  .tail-container {
+    display: none;
+  } */
+  
+  #education-first-item {
+    padding-top: 20px;
+  }
 }
 
 .extracurriculars {

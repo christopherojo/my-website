@@ -151,61 +151,88 @@ const Experience = () => {
       <div className='experience-spread'>
         <div className='experience-item'>
           <div className='experience-date'>
-            <h5>August 2022 - </h5>
-            <h5>Present</h5>
+            <div>
+              <h5>August 2022 - </h5>
+              <h5>Present</h5>
+            </div>
           </div>
           <div className='experience-point'>
-            <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
-            <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
-          </div>
-          <div className='experience-info'>
-            <h3>Senior Director of Finance</h3>
-            <h4>Western AI Club</h4>
-            <li>Information1</li>
-            <li>Information2</li>
-            <li>Information3</li>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Senior Director of Finance</h3>
+                <h4>Western AI Club</h4>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='experience-item'>
           <div className='experience-date'>
-            <h5>May 2021 - </h5>
-            <h5>Present</h5>
+            <div>
+              <h5>May 2021 - </h5>
+              <h5>Present</h5>
+            </div>
           </div>
           <div className='experience-point'>
-            <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
-            <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
-          </div>
-          <div className='experience-info'>
-            <h3>Co-Founder and Software Developer</h3>
-            <h4>Vaerion</h4>
-            <li>Produced a successful crypto trading bot that averages 15% profit per month in back-testing results using Python,
-Ta-Lib Math models, Bybit API, and Pandas.</li>
-            <li>Formulated an algorithm to read and store data from the Bybit trading website then write it to an excel file using
-Python and Bybit API.</li>
-            <li>Created a command-line user interface to allow the user to easily access and change the bot settings to their preferred
-strategies using multi-threading, pandas and numpy for data printing and bot settings adjustment.</li>
-            <li> Established a Discord Bot to read and print signals to certain channels in the Discord Server from the analyzed data
-using discord.py and repl.it.</li>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Co-Founder and Software Developer</h3>
+                <h4>Vaerion</h4>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>Produced a successful crypto trading bot that averages 15% profit per month in back-testing results using Python, Ta-Lib Math models, Bybit API, and Pandas.</li>
+                <li>Formulated an algorithm to read and store data from the Bybit trading website then write it to an excel file using Python and Bybit API.</li>
+                <li>Created a command-line user interface to allow the user to easily access and change the bot settings to their preferred strategies using multi-threading, pandas and numpy for data printing and bot settings adjustment.</li>
+                <li> Established a Discord Bot to read and print signals to certain channels in the Discord Server from the analyzed data using discord.py and repl.it.</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='experience-item'>
           <div className='experience-date'>
-            <h5>May 2021 - </h5>
-            <h5>October 2021</h5>
+            <div>
+              <h5>May 2021 - </h5>
+              <h5>October 2021</h5>
+            </div>
           </div>
           <div className='experience-point'>
-            <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
-            <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
-          </div>
-          <div className='experience-info'>
-            <h3>Software Developer</h3>
-            <h4>Opal LLC</h4>
-            <li>Developed a program to create and perform transactions with an XRP wallet using the xrpl-py library to store, send,
-and receive XRP currency and NFTs across multiple wallets and write their information to the ripple ledger.</li>
-            <li>Incorporated Anima and Figma framework designs into engaging web pages using React and Node.js.</li>
-            <li>Implemented multiple databases into the Opal website to store user data and NFT data using MongoDB.</li>
-            <li>Engineered an application to break down a users secret recovery pass phrase into its private key, public key, and public
-address to use for wallet creation and manipulation using Python and JavaScript.</li>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Software Developer</h3>
+                <h4>Opal LLC</h4>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>Developed a program to create and perform transactions with an XRP wallet using the xrpl-py library to store, send, and receive XRP currency and NFTs across multiple wallets and write their information to the ripple ledger.</li>
+                <li>Incorporated Anima and Figma framework designs into engaging web pages using React and Node.js.</li>
+                <li>Implemented multiple databases into the Opal website to store user data and NFT data using MongoDB.</li>
+                <li>Engineered an application to break down a users secret recovery pass phrase into its private key, public key, and public address to use for wallet creation and manipulation using Python and JavaScript.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -225,21 +252,31 @@ const Education = () => {
             <h5>2020 - 2025</h5>
           </div>
           <div className='experience-point'>
-            <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
-            <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
-          </div>
-          <div className='experience-info'>
-            <h3>BESc. Software Engineering</h3>
-            <h4>University of Western Ontario</h4>
-            <li>
-              <b>Key Courses: </b>Information1
-            </li>
-            <li>
-              <b>Languages: </b>Information2
-            </li>
-            <li>
-              <b>Other Skills: </b>Information3
-            </li>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>BESc. Software Engineering</h3>
+                <h4>University of Western Ontario</h4>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>
+                  <b>Key Courses: </b>Algorithms & Data Structures, Software Design, Software Construction, Scripting Fundamentals, Programming Fundamentals, Digital Logic Systems, Discrete Math, Statistics
+                </li>
+                <li>
+                  <b>Languages: </b>Java, JavaScript, HTML, CSS, SQL, C#, Git
+                </li>
+                <li>
+                  <b>Other Skills: </b> Design Thinking, Breakdown work into manageable tasks, Organize teams to complete work, Assemble partitions of projects, Simplify complex topics
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='experience-item'>
@@ -247,21 +284,31 @@ const Education = () => {
             <h5>2020 - 2025</h5>
           </div>
           <div className='experience-point'>
-            <img id='node' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png' />
-            <img id='node-tail' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Location_arithmetic_vertical.svg/1024px-Location_arithmetic_vertical.svg.png' />
-          </div>
-          <div className='experience-info'>
-            <h3>Ivey Honours Business Administration</h3>
-            <h4>University of Western Ontario</h4>
-            <li>
-              <b>Key Courses: </b>Information1
-            </li>
-            <li>
-              <b>Soft Skills: </b>Information2
-            </li>
-            <li>
-              <b>Other Skills: </b>Information3
-            </li>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Ivey Honours Business Administration</h3>
+                <h4>University of Western Ontario</h4>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>
+                  <b>Key Courses: </b>Leveraging Information Technology, Strategy, Finance, Communications, Operations, Decision Making with Analytics, Leading People in Organizations, Learning Through Action
+                </li>
+                <li>
+                  <b>Soft Skills: </b>Leadership, Collaboration, Quick Learning, Clear Communication, Financial Planning
+                </li>
+                <li>
+                  <b>Other Skills: </b>Excel, Powerpoint, Canva
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home.js';
-import Project from './Pages/Project.js';
 import Split from './Pages/Projects/Split.js';
 import SpeedStocks from './Pages/Projects/SpeedStocks.js';
 import YouFirst from './Pages/Projects/YouFirst.js';
@@ -13,7 +12,6 @@ const Main = () => {
   return (
     <Routes>
       <Route path='/' element={<Home />}></Route>
-      <Route path='/project' element={<Project />}></Route>
       <Route path='/projects/split' element={<Split />}></Route>
       <Route path='/projects/speedstocks' element={<SpeedStocks />}></Route>
       <Route path='/projects/youfirst' element={<YouFirst />}></Route>

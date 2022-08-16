@@ -219,24 +219,27 @@ div {
   padding-bottom: 50px;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .project-item-border {
   padding: 15px;
   border-radius: 0 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-item {
   background-color: antiquewhite;
+  border-radius: 0 25px 25px 25px;
   width: 30vw;
   height: 30vh;
   max-width: 400px;
   max-height: 300px;
   min-width: 300px;
   min-height: 200px;
-  border-radius: inherit;
 }
 
 .project-item h3 {
@@ -377,7 +380,7 @@ div {
 
   .tail-container {
     top: -30px;
-    height: 110%;
+    height: 105%;
   }
 
   /* .node-container {

@@ -1,4 +1,3 @@
-import './Project.css'
 import SpeedStocksBackground from '../Images/SpeedStocksGameConcept.jpg';
 
 const Header = () => {

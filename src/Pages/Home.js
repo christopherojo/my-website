@@ -75,7 +75,7 @@ const AboutMe = () => {
                   </h3>
                   <h3>Hobbies</h3>
                 </div>
-                <p>Puzzles, coding, trading/investing, data analysis, mathematics, basketball,</p>
+                <p>Puzzles, coding, trading/investing, data analysis, mathematics, basketball</p>
               </div>
             </div>
           </div>
@@ -93,43 +93,51 @@ const Projects = () => {
       </div>
       <div className='project-spread'>
         <div className='project-item-border'>
-          <div className='project-item'>
-            <h3>Split</h3>
-            <div>
-              <Link to='/projects/split'>
-                <img id='split' alt='$Split' src={Split} />
-              </Link>
+          <div>
+            <div className='project-item'>
+              <h3>Split</h3>
+              <div>
+                <Link to='/projects/split'>
+                  <img id='split' alt='$Split' src={Split} />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         <div className='project-item-border'>
-          <div className='project-item'>
-            <h3>Speed Stocks</h3>
-            <div>
-              <Link to='/projects/speedstocks'>
-                <img id='speedstocks' alt='Speed Stocks' src={SpeedStocks} />
-              </Link>
+          <div>
+            <div className='project-item'>
+              <h3>Speed Stocks</h3>
+              <div>
+                <Link to='/projects/speedstocks'>
+                  <img id='speedstocks' alt='Speed Stocks' src={SpeedStocks} />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         <div className='project-item-border'>
-          <div className='project-item'>
-            <h3>You First</h3>
-            <div>
-              <Link to='/projects/youfirst'>
-                <img id='youfirst' alt='You First' src={YouFirst} />
-              </Link>
+          <div>
+            <div className='project-item'>
+              <h3>You First</h3>
+              <div>
+                <Link to='/projects/youfirst'>
+                  <img id='youfirst' alt='You First' src={YouFirst} />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         <div className='project-item-border'>
-          <div className='project-item'>
+          <div>
+            <div className='project-item'>
             <h3>Password Generator</h3>
             <div>
               <Link to='/projects/passwordgenerator'>
                 <img id='passwordgenerator' alt='Password Generator' src={PasswordGenerator} />
               </Link>
             </div>
+          </div>
           </div>
         </div>
       </div>

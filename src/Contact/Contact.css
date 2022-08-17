@@ -1,7 +1,9 @@
 .section-contact {
-  background-image: radial-gradient(farthest-corner at 40px 40px,
-      #f35 0%, #43e 100%);
-  background-size: cover;
+  background-image: radial-gradient(farthest-corner at 40px 40px,rgba(62, 255, 245, 0.521) 0,
+  rgba(252, 255, 81, 0.281) 100%) ,url(../Pages/Images/Abstract\ Mountain.webp);
+  background-size: 200% 120%;
+  background-position: left 50%;
+  background-repeat: no-repeat;
   height: 240px;
 }
 

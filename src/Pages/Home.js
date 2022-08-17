@@ -141,6 +141,11 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className='overlap'>
+        <div className='overlap2'>
+          <div className='overlap3'></div>
+        </div>
+      </div>
     </div>
   );
 }

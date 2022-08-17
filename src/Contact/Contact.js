@@ -8,7 +8,7 @@ const Contact = () => {
       </div>
       <div className='contact-spread'>
         <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>
+          <a href='mailto:christopherojo617@gmail.com' target='_blank'>
             <div id='email'>
               <i class="fa-solid fa-envelope"></i>
             </div>
@@ -16,7 +16,7 @@ const Contact = () => {
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>
+          <a href='https://discordapp.com/users/218099031388323841' target='_blank'>
             <div id='discord'>
               <i class="fa-brands fa-discord"></i>
             </div>
@@ -24,7 +24,7 @@ const Contact = () => {
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>
+          <a href='https://www.linkedin.com/in/christopher-ojo/' target='_blank'>
             <div id='linked-in'>
               <i class="fa-brands fa-linkedin"></i>
             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>
+          <a href='https://github.com/christopherojo' target='_blank'>
             <div id='github'>
               <i class="fa-brands fa-github"></i>
             </div>
@@ -40,7 +40,7 @@ const Contact = () => {
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>
+          <a href='https://www.instagram.com/cookiedough.ojo/' target='_blank'>
             <div id='instagram'>
               <i class="fa-brands fa-instagram"></i>
             </div>

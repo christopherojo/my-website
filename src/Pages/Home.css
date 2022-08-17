@@ -382,17 +382,19 @@ div {
     top: -30px;
     height: 105%;
   }
+  
+  #education-first-item {
+    padding-top: 0px;
+  }
+}
 
-  /* .node-container {
+@media only screen and (max-width: 600px) {
+  .node-container {
     display: none;
   }
 
   .tail-container {
     display: none;
-  } */
-  
-  #education-first-item {
-    padding-top: 20px;
   }
 }
 

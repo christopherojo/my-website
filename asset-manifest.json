@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.6a0ac760.css",
-    "main.js": "/my-website/static/js/main.b267c2f2.js",
+    "main.css": "/my-website/static/css/main.8f1e03c4.css",
+    "main.js": "/my-website/static/js/main.f1bbae41.js",
     "static/media/NoFace.png": "/my-website/static/media/NoFace.f95cf461565bee271c44.png",
+    "static/media/IntroBackground.webp": "/my-website/static/media/IntroBackground.cb2d012e08bcdd835509.webp",
+    "static/media/Abstract Tech Left.webp": "/my-website/static/media/Abstract Tech Left.8345e61be14f3f960851.webp",
+    "static/media/Abstract Triangles.jpg": "/my-website/static/media/Abstract Triangles.f1b41931b6f6a6560dc5.jpg",
     "static/media/LinkedIn.jpg": "/my-website/static/media/LinkedIn.9156c9a5d5232ffd9b9b.jpg",
+    "static/media/Abstract Mountain.webp": "/my-website/static/media/Abstract Mountain.9893deac8ec8a6831204.webp",
     "static/media/SplitFigmaMap.jpg": "/my-website/static/media/SplitFigmaMap.eb1c56c8b36876d1bcbb.jpg",
     "static/media/PasswordGeneratorHome.jpg": "/my-website/static/media/PasswordGeneratorHome.a148cbd897fa7d1c1bd0.jpg",
     "static/media/SpeedStocksGameConcept.jpg": "/my-website/static/media/SpeedStocksGameConcept.3a6bbba1dd0bc4c87ddb.jpg",
@@ -11,11 +15,11 @@
     "static/media/YouFirstHome.jpg": "/my-website/static/media/YouFirstHome.9e1c0eafa11c9075f6f6.jpg",
     "static/media/YouFirstMeditate.jpg": "/my-website/static/media/YouFirstMeditate.59b1677e7daee727f493.jpg",
     "index.html": "/my-website/index.html",
-    "main.6a0ac760.css.map": "/my-website/static/css/main.6a0ac760.css.map",
-    "main.b267c2f2.js.map": "/my-website/static/js/main.b267c2f2.js.map"
+    "main.8f1e03c4.css.map": "/my-website/static/css/main.8f1e03c4.css.map",
+    "main.f1bbae41.js.map": "/my-website/static/js/main.f1bbae41.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a0ac760.css",
-    "static/js/main.b267c2f2.js"
+    "static/css/main.8f1e03c4.css",
+    "static/js/main.f1bbae41.js"
   ]
 }

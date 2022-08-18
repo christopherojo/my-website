@@ -340,7 +340,7 @@ const Hobbies = () => {
           <div id='trading'>
             <div className='extracurricular'>
               <h3>Trading & Investing</h3>
-              <h4>2+ years experience</h4>
+              <h4>12+ Months Experience</h4>
             </div>
           </div>
           <div className='extracurricular'>
@@ -357,7 +357,7 @@ const Hobbies = () => {
         <div className='extracurricular-panel'>
           <div className='extracurricular'>
             <h3>Programming</h3>
-            <h4>5+ years experience</h4>
+            <h4>3+ years experience</h4>
           </div>
         </div>
       </div>

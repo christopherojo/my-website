@@ -214,7 +214,7 @@ body {
 }
 
 .info-title h3 {
-  background: linear-gradient(120deg,#c90460,#bf2ad3 50%,#4b049c);
+  background: linear-gradient(135deg,#1ba322,#2a5fd3c5 50%,#3b48ffd5);
   -webkit-background-clip: text;
   color: transparent;
   font-size: 600;
@@ -431,6 +431,20 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.extracurricular h3 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.extracurricular h4 {
+  font-style: oblique;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.extracurricular text {
+  color: aliceblue;
 }
 
 .extracurricular-panel:first-of-type {

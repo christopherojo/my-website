@@ -8,40 +8,40 @@ const Contact = () => {
       </div>
       <div className='contact-spread'>
         <div className='contact-info'>
-          <a href='mailto:christopherojo617@gmail.com' target='_blank'>
-            <div id='email'>
+          <a id='email' href='mailto:christopherojo617@gmail.com' target='_blank'>
+            <div className='contact-hover'>
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div className='tooltip'>Email</div>
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://discordapp.com/users/218099031388323841' target='_blank'>
-            <div id='discord'>
+          <a id='discord' href='https://discordapp.com/users/218099031388323841' target='_blank'>
+            <div className='contact-hover'>
               <i class="fa-brands fa-discord"></i>
             </div>
             <div className='tooltip'>Discord</div>
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://www.linkedin.com/in/christopher-ojo/' target='_blank'>
-            <div id='linked-in'>
+          <a id='linked-in' href='https://www.linkedin.com/in/christopher-ojo/' target='_blank'>
+            <div className='contact-hover'>
               <i class="fa-brands fa-linkedin"></i>
             </div>
             <div className='tooltip'>LinkedIn</div>
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://github.com/christopherojo' target='_blank'>
-            <div id='github'>
+          <a id='github' href='https://github.com/christopherojo' target='_blank'>
+            <div className='contact-hover'>
               <i class="fa-brands fa-github"></i>
             </div>
             <div className='tooltip'>Github</div>
           </a>
         </div>
         <div className='contact-info'>
-          <a href='https://www.instagram.com/cookiedough.ojo/' target='_blank'>
-            <div id='instagram'>
+          <a id='instagram' href='https://www.instagram.com/cookiedough.ojo/' target='_blank'>
+            <div className='contact-hover'>
               <i class="fa-brands fa-instagram"></i>
             </div>
             <div className='tooltip'>Instagram</div>

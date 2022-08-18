@@ -40,7 +40,7 @@
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: #f35;
+  background-color: rgb(255, 82, 111);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -54,16 +54,16 @@
 }
 
 .contact-info a:hover i {
-  color: #fcd1de;
+  color: #ffffff;
 }
 
 .contact-info a:hover {
-  background-color: #4b049c;
+  background-color: #ec2773;
 }
 
 .contact-info i {
   font-size: 25px;
-  color: #4b049c;
+  color: #ddebdd;
 }
 
 .contact-info .tooltip {
@@ -71,8 +71,8 @@
   position: relative;
   text-align: center;
   font-size: 5px;
-  color: #fcd1de;
-  background-color: #4b049c;
+  color: #ffffff;
+  background-color: inherit;
   padding: 5px 8px;
   border-radius: 5px;
   pointer-events: none;
@@ -90,7 +90,11 @@
   align-items: center;
   right: 45%;
   rotate: 45deg;
-  background-color: #4b049c;
+  background-color: inherit;
+}
+
+.contact-hover {
+  position: absolute;
 }
 
 a:link { text-decoration: none; }
@@ -98,22 +102,35 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
-#email {
+.contact-hover {
   position: absolute;
 }
 
-#discord {
-  position: absolute;
+#email:hover {
+  background: #00a1f1;
 }
 
-#linked-in {
-  position: absolute;
+#discord:hover {
+  background: #7289da
 }
 
-#github {
-  position: absolute;
+#linked-in:hover {
+  background: #0077b5;
 }
 
-#instagram {
-  position: absolute;
+#github:hover {
+  background: #333;
+}
+
+#instagram:hover {
+  /* code copied from https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09533 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+#instagram .tooltip {
+  background-color: #f32d4b;
 }

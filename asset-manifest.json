@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.8f1e03c4.css",
-    "main.js": "/my-website/static/js/main.f1bbae41.js",
+    "main.css": "/my-website/static/css/main.92e33b03.css",
+    "main.js": "/my-website/static/js/main.897331a9.js",
     "static/media/NoFace.png": "/my-website/static/media/NoFace.f95cf461565bee271c44.png",
     "static/media/IntroBackground.webp": "/my-website/static/media/IntroBackground.cb2d012e08bcdd835509.webp",
     "static/media/Abstract Tech Left.webp": "/my-website/static/media/Abstract Tech Left.8345e61be14f3f960851.webp",
@@ -15,11 +15,11 @@
     "static/media/YouFirstHome.jpg": "/my-website/static/media/YouFirstHome.9e1c0eafa11c9075f6f6.jpg",
     "static/media/YouFirstMeditate.jpg": "/my-website/static/media/YouFirstMeditate.59b1677e7daee727f493.jpg",
     "index.html": "/my-website/index.html",
-    "main.8f1e03c4.css.map": "/my-website/static/css/main.8f1e03c4.css.map",
-    "main.f1bbae41.js.map": "/my-website/static/js/main.f1bbae41.js.map"
+    "main.92e33b03.css.map": "/my-website/static/css/main.92e33b03.css.map",
+    "main.897331a9.js.map": "/my-website/static/js/main.897331a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f1e03c4.css",
-    "static/js/main.f1bbae41.js"
+    "static/css/main.92e33b03.css",
+    "static/js/main.897331a9.js"
   ]
 }

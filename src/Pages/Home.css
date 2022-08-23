@@ -214,7 +214,7 @@ body {
 }
 
 .info-title h3 {
-  background: linear-gradient(135deg,#1ba322,#2a5fd3c5 50%,#3b48ffd5);
+  background: linear-gradient(135deg,#41d148,#2ad39bc5 50%,#1f4bdad5);
   -webkit-background-clip: text;
   color: transparent;
   font-size: 600;

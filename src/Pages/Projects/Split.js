@@ -41,7 +41,7 @@ const Information = () => {
         </div>
         <div className='project-how'>
           <h1>How we built it</h1>
-          <p>We used figma to get an idea of how the app would look, then used Android Studio and Java to create the app. Using Courier, we also added the feature for the app to notify the user when people leave or join their plans.</p>
+          <p>We used figma to get an idea of how the app would look, then used Android Studio and Java to create the app. Using Courier, we also added the feature for the app to notify the user when people join or leave their plans.</p>
         </div>
         <div className='project-challenges'>
           <h1>Challenges we ran into</h1>

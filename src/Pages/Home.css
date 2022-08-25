@@ -64,6 +64,10 @@ body {
   padding-top: 50px;
 }
 
+hl {
+  background-color: rgba(127, 255, 212, 0.514);
+}
+
 .introduction-bg {
   background: url(./Images/IntroBackground.webp);
   background-size: inherit;
@@ -345,8 +349,8 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 8px solid #c90460;
-  background-color: #f35;
+  border: 8px solid #29cfa6;
+  background-color: #66ffe6;
 }
 
 .tail-container {
@@ -360,7 +364,7 @@ body {
 .experience-item .tail {
   width: 10px;
   border-radius: 5px;
-  background-color: #c90460;
+  background-color: #29cfa6;
 }
 
 .experience-info {

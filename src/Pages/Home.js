@@ -188,37 +188,6 @@ const Experience = () => {
           <div className='experience-date'>
             <div>
               <h5>May 2021 - </h5>
-              <h5>Present</h5>
-            </div>
-          </div>
-          <div className='experience-point'>
-            <div className='experience-header'>
-              <div className='node-container'>
-                <div className='node'></div>
-              </div>
-              <div className='experience-position'>
-                <h3>Co-Founder and Software Developer</h3>
-                <h4>Vaerion</h4>
-                <h5>May 2021 - Present</h5>
-              </div>
-            </div>
-            <div className='experience-info'>
-              <div className='tail-container'>
-                <div className='tail'></div>
-              </div>
-              <ul>
-                <li>Produced a successful crypto trading bot that averages 15% profit per month in back-testing results using Python, Ta-Lib Math models, Bybit API, and Pandas.</li>
-                <li>Formulated an algorithm to read and store data from the Bybit trading website then write it to an excel file using Python and Bybit API.</li>
-                <li>Created a command-line user interface to allow the user to easily access and change the bot settings to their preferred strategies using multi-threading, pandas and numpy for data printing and bot settings adjustment.</li>
-                <li> Established a Discord Bot to read and print signals to certain channels in the Discord Server from the analyzed data using discord.py and repl.it.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className='experience-item'>
-          <div className='experience-date'>
-            <div>
-              <h5>May 2021 - </h5>
               <h5>October 2021</h5>
             </div>
           </div>
@@ -229,7 +198,7 @@ const Experience = () => {
               </div>
               <div className='experience-position'>
                 <h3>Software Developer</h3>
-                <h4>Opal LLC</h4>
+                <h4>Opal</h4>
                 <h5>May 2021 - October 2021</h5>
               </div>
             </div>
@@ -238,10 +207,127 @@ const Experience = () => {
                 <div className='tail'></div>
               </div>
               <ul>
-                <li>Developed a program to create and perform transactions with an XRP wallet using the xrpl-py library to store, send, and receive XRP currency and NFTs across multiple wallets and write their information to the ripple ledger.</li>
-                <li>Incorporated Anima and Figma framework designs into engaging web pages using React and Node.js.</li>
-                <li>Implemented multiple databases into the Opal website to store user data and NFT data using MongoDB.</li>
-                <li>Engineered an application to break down a users secret recovery pass phrase into its private key, public key, and public address to use for wallet creation and manipulation using Python and JavaScript.</li>
+                <li>Created and prototyped a system to store, send, and receive XRP currency and NFTs across multiple digital wallets and write their information to the ripple ledger using <b>Python</b>, <b>JSON</b>, and the <b>xrpl-py</b> library.</li>
+                <li>Incorporated dynamic <b>Anima</b> and <b>Figma</b> framework designs into engaging web pages using <b>React</b> and <b>Node.js</b>.</li>
+                <li>Implemented multiple scalable databases into the Opal website to store user and NFT data using <b>Django</b> and <b>MongoDB</b>.</li>
+                <li>Engineered an application to break down a user's secret recovery passphrase into its private key, public key, and public address, enabling users to integrate their personal digital wallets into Opal's platform using <b>Python</b> and <b>JavaScript</b>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='experience-item'>
+          <div className='experience-date'>
+            <div>
+              <h5>May 2021 - </h5>
+              <h5>Present</h5>
+            </div>
+          </div>
+          <div className='experience-point'>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Co-Founder, Software Developer</h3>
+                <h4>Vaerion</h4>
+                <h5>May 2021 - Present</h5>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>Co-founded and developed a day-trading cryptocurrency bot for distribution that averages <hl>13% profit annually</hl> in back-testing results by capitalizing on momentum investing and <hl>4 other strategies</hl> using <b>Python</b>, <b>TA-Lib math models</b>, and <b>NumPy</b>.</li>
+                <li>Programmed a tool to read and store data from the Bybit website then write it to an excel file using the <b>Bybit API</b>.</li>
+                <li>Designed and created a command-line user interface enabling users to read bot data and greatly simplify the process to access, analyze, and calibrate the bot's settings to their preferred strategies using a <b>multithreaded CLI</b> and <b>Pandas</b>.</li>
+                <li>Implemented a Discord Bot to send trading signals to designated channels in Discord servers using <b>discord.py</b> and <b>repl.it</b>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='experience-item'>
+          <div className='experience-date'>
+            <div>
+              <h5>June 2020 - </h5>
+              <h5>August 2020</h5>
+            </div>
+          </div>
+          <div className='experience-point'>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Video Editor, Camp Leader</h3>
+                <h4>Immanuel Summer Ministries</h4>
+                <h5>June 2020 - August 2020</h5>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>Directed, edited, and marketed <hl>20+ unique educational daily videos</hl> for a church of <hl>over 200 members</hl> to keep online camp engaging during the pandemic using <b>Photoshop</b> and <b>VideoPad Video Editor</b>.</li>
+                <li>Coordinated <hl>30+ lessons and activities</hl> for staff and kids to partake in virtually with delivered homework using <b>Microsoft Office</b>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='experience-item'>
+          <div className='experience-date'>
+            <div>
+              <h5>September 2020 - </h5>
+              <h5>May 2022</h5>
+            </div>
+          </div>
+          <div className='experience-point'>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Social Activist</h3>
+                <h4>Engineers Without Borders</h4>
+                <h5>September 2020 - May 2022</h5>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>Hosted a meeting with my local Member of Parliament to increase the spending budget of investments towards Sub-Suharan Africa by <hl>$1.5 million</hl> through organizing, researching, and presenting articulate arguments with <b>Microsoft PowerPoint</b>.</li>
+                <li>Deployed a website to aid students in determining which political party their views align with most using <b>React</b> and <b>Firebase</b>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className='experience-item'>
+          <div className='experience-date'>
+            <div>
+              <h5>September 2019 - </h5>
+              <h5>June 2020</h5>
+            </div>
+          </div>
+          <div className='experience-point'>
+            <div className='experience-header'>
+              <div className='node-container'>
+                <div className='node'></div>
+              </div>
+              <div className='experience-position'>
+                <h3>Chess Club President</h3>
+                <h4>Earl Haig</h4>
+                <h5>September 2019 - June 2020</h5>
+              </div>
+            </div>
+            <div className='experience-info'>
+              <div className='tail-container'>
+                <div className='tail'></div>
+              </div>
+              <ul>
+                <li>Administered various tournaments and weekly workshops on chess strategies to a cohort of <hl>30 dedicated members</hl>.</li>
               </ul>
             </div>
           </div>

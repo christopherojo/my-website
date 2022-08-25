@@ -5,8 +5,9 @@ body {
   background-color: azure;
 }
 
-.main {
-  /* padding: 20px; */
+.main h1{
+  font-size: 45px;
+  padding-bottom: 10px;
 }
 
 .section-welcome {
@@ -218,7 +219,7 @@ hl {
 }
 
 .info-title h3 {
-  background: linear-gradient(135deg,#41d148,#2ad39bc5 50%,#1f4bdad5);
+  background: linear-gradient(135deg,#0fc78afb,#1f80dad5);
   -webkit-background-clip: text;
   color: transparent;
   font-size: 600;
@@ -244,7 +245,7 @@ hl {
 }
 
 .project-item {
-  background-color: antiquewhite;
+  background-color: rgb(222, 215, 250);
   border-radius: 0 25px 25px 25px;
   width: 30vw;
   height: 30vh;
@@ -321,7 +322,7 @@ hl {
 
 .experience-date {
   padding-top: 20px;
-  min-width: 130px;
+  min-width: 165px;
   height: 80px;
   display: flex;
   flex-direction: column;

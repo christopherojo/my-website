@@ -1,8 +1,10 @@
 import './Home.css'
 import LinkedIn from './Images/LinkedIn.jpg'
+import MCAT from './Images/MCATPrepGame.png'
 import Split from './Images/SplitHome.jpg'
-import SpeedStocks from './Images/SpeedStocksGameConcept.jpg'
 import YouFirst from './Images/YouFirstHome.jpg'
+import SpeedStocks from './Images/SpeedStocksGameConcept.jpg'
+import RuneScape from './Images/RuneScape2.0.png'
 import PasswordGenerator from './Images/PasswordGeneratorHome.jpg'
 import { Link } from 'react-router-dom';
 
@@ -95,10 +97,34 @@ const Projects = () => {
         <div className='project-item-border'>
           <div>
             <div className='project-item'>
+              <h3>MCAT Study Game</h3>
+              <div>
+                <Link to='/projects/mcatprepgame'>
+                  <img id='mcatprepgame' alt='Mcat Prep Game' src={MCAT} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='project-item-border'>
+          <div>
+            <div className='project-item'>
               <h3>Split</h3>
               <div>
                 <Link to='/projects/split'>
                   <img id='split' alt='$Split' src={Split} />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='project-item-border'>
+          <div>
+            <div className='project-item'>
+              <h3>You First</h3>
+              <div>
+                <Link to='/projects/youfirst'>
+                  <img id='youfirst' alt='You First' src={YouFirst} />
                 </Link>
               </div>
             </div>
@@ -119,10 +145,10 @@ const Projects = () => {
         <div className='project-item-border'>
           <div>
             <div className='project-item'>
-              <h3>You First</h3>
+              <h3>RuneScape 2.0</h3>
               <div>
-                <Link to='/projects/youfirst'>
-                  <img id='youfirst' alt='You First' src={YouFirst} />
+                <Link to='/projects/runescape'>
+                  <img id='runescape' alt='RuneScape2.0' src={RuneScape} />
                 </Link>
               </div>
             </div>
@@ -279,7 +305,7 @@ const Experience = () => {
           <div className='experience-date'>
             <div>
               <h5>September 2020 - </h5>
-              <h5>May 2022</h5>
+              <h5>April 2022</h5>
             </div>
           </div>
           <div className='experience-point'>
@@ -290,7 +316,7 @@ const Experience = () => {
               <div className='experience-position'>
                 <h3>Social Activist</h3>
                 <h4>Engineers Without Borders</h4>
-                <h5>September 2020 - May 2022</h5>
+                <h5>September 2020 - April 2022</h5>
               </div>
             </div>
             <div className='experience-info'>

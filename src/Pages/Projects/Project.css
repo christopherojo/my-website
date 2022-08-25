@@ -17,24 +17,32 @@
   height: 90vh;
   max-width: 500px;
   max-height: 150px;
-  border: 10px solid royalblue;
+  border: 10px solid rgb(65, 161, 225);
   border-radius: 3px;
-  background-color: blanchedalmond;
+  background-color: rgb(205, 255, 216);
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#mcat-title {
+  background-color: rgb(205, 255, 255);
 }
 
 #split-title {
   background-color: rgb(230, 255, 232);
 }
 
+#youfirst-title {
+  background-color: rgb(205, 248, 255);
+}
+
 #speedstocks-title {
   background-color: rgb(234, 255, 225);
 }
 
-#youfirst-title {
-  background-color: rgb(205, 248, 255);
+#runescape-title {
+  background-color: rgb(255, 243, 205);
 }
 
 #passwordgenerator-title {

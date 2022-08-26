@@ -6,7 +6,7 @@ body {
 }
 
 .main h1{
-  font-size: 45px;
+  font-size: 50px;
   padding-bottom: 10px;
 }
 
@@ -301,7 +301,7 @@ hl {
 .experience h1 {
   padding: 20px;
   width: 20vw;
-  min-width: 250px;
+  min-width: 280px;
 }
 
 .education-title {

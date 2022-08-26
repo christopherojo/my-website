@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from './NoFace.png';
+import MyResume from '../Pages/Files/Christopher Ojo Resume 2023-3.pdf';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
@@ -47,6 +48,11 @@ const Navbar = () => {
             <Link className="nav-link" to="/#extracurriculars">
               Extracurriculars
             </Link>
+          </li>
+          <li className="nav-item px-2">
+            <a className="nav-link" href={MyResume} target='_blank'>
+              Resume
+            </a>
           </li>
           <li className="nav-item px-2">
             <Link className="nav-link" to="#contact">

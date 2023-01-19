@@ -213,8 +213,8 @@ const Experience = () => {
         <div className='experience-item'>
           <div className='experience-date'>
             <div>
-              <h5>May 2021 - </h5>
-              <h5>October 2021</h5>
+              <h5>May 2022 - </h5>
+              <h5>October 2022</h5>
             </div>
           </div>
           <div className='experience-point'>
@@ -225,7 +225,7 @@ const Experience = () => {
               <div className='experience-position'>
                 <h3>Software Developer</h3>
                 <h4>Opal</h4>
-                <h5>May 2021 - October 2021</h5>
+                <h5>May 2022 - October 2022</h5>
               </div>
             </div>
             <div className='experience-info'>
@@ -275,8 +275,8 @@ const Experience = () => {
         <div className='experience-item'>
           <div className='experience-date'>
             <div>
-              <h5>June 2020 - </h5>
-              <h5>August 2020</h5>
+              <h5>June 2021 - </h5>
+              <h5>August 2021</h5>
             </div>
           </div>
           <div className='experience-point'>
@@ -287,7 +287,7 @@ const Experience = () => {
               <div className='experience-position'>
                 <h3>Video Editor, Camp Leader</h3>
                 <h4>Immanuel Summer Ministries</h4>
-                <h5>June 2020 - August 2020</h5>
+                <h5>June 2021 - August 2021</h5>
               </div>
             </div>
             <div className='experience-info'>

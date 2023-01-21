@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.b2c8e369.css",
-    "main.js": "/my-website/static/js/main.1c2d38ea.js",
+    "main.js": "/my-website/static/js/main.36c43cae.js",
     "static/media/RuneScape2.0.png": "/my-website/static/media/RuneScape2.0.2a0a6584de59e2936d7a.png",
     "static/media/MCATPrepGame.png": "/my-website/static/media/MCATPrepGame.c2489cfd57511ded0cc6.png",
     "static/media/NoFace.png": "/my-website/static/media/NoFace.f95cf461565bee271c44.png",
@@ -19,10 +19,10 @@
     "static/media/YouFirstMeditate.jpg": "/my-website/static/media/YouFirstMeditate.59b1677e7daee727f493.jpg",
     "index.html": "/my-website/index.html",
     "main.b2c8e369.css.map": "/my-website/static/css/main.b2c8e369.css.map",
-    "main.1c2d38ea.js.map": "/my-website/static/js/main.1c2d38ea.js.map"
+    "main.36c43cae.js.map": "/my-website/static/js/main.36c43cae.js.map"
   },
   "entrypoints": [
     "static/css/main.b2c8e369.css",
-    "static/js/main.1c2d38ea.js"
+    "static/js/main.36c43cae.js"
   ]
 }

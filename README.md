@@ -1,6 +1,6 @@
 # Ye Old Personal Website
 
-Currently can be found at: [My Website](https://github.com/christopherojo/my-website).
+Currently can be found at: [My Website](https://christopherojo.github.io/my-website/).
 
 ## Tech Summary
 
